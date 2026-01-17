@@ -1,0 +1,59 @@
+body {
+  background-color: #dff5ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.scoreboard {
+  background-color: #1e1a4d;
+  padding: 30px 40px;
+  border-radius: 15px;
+  display: flex;
+  gap: 60px;
+}
+
+.team {
+  text-align: center;
+  color: white;
+}
+
+.team h2 {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.score {
+  background-color: black;
+  color: #ff3366;
+  font-size: 60px;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.buttons button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: white;
+  padding: 6px 10px;
+  margin: 3px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: #ff3366;
+  border-color: #ff3366;
+}
+
+#new{
+   background-color: black;
+  color: #ff3366;  
+   padding: 8px 8px ;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
